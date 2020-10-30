@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, );
+}
+main{
+    background-color: beige;
+}
+h1{
+    color:#51000B;
+    background-color: #A23645;
+}
+h2{
+    color: #791422;
+    background-color: #CA6573;
+}
+p{
+    text-align: inherit;
+}

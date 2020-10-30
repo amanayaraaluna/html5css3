@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    max-width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+header{
+    background-color: rgb(43, 199, 183);
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    padding: 10px;
+}
+main{
+    background-image: url(images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+    padding: 20px;
+}
+.caixa{
+    max-width: 230px;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.644);
+    padding: 20px;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 16px;
+}
+
+.p{
+    margin-bottom: 15px;
+}
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: turquoise;
+    cursor: pointer;
+    transition: 500ms;
+}
+input[type="submit"]:hover{
+    background-color: tomato;
+}
+
+
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: calc(97%);
+    background-position-y: center;
+}
+.cara{
+    width: 160px;
+    display: inline-block;
+    padding: 20px;
+}
+.caixa-descr{
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+.caixa-descr h3{
+    font-size: 24px;
+}
+.caixa-descr h3,.caixa-descr p{
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #202121;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+@media screen and (max-width: 800px){
+    .caixa{
+        float: none;
+        margin: auto;
+    }
+    .caixa-descr{
+        display: block;
+        text-align: center;
+        margin: 20px auto 50px auto;
+    }
+}

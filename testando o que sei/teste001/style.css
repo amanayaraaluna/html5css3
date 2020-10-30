@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+main{
+    background-color: rgba(231, 243, 243, 0.61);
+    text-align: center;
+    border-radius: 40px;
+    box-shadow:5px 5px 5px blue;
+    padding: 10px;
+    margin: auto;
+}
+
+nav{
+    background-color: blueviolet;
+    padding: 3px;
+    }
+    nav>a{
+    text-decoration: rgb(30, 33, 210);
+    color: cornsilk;
+    font-weight: 300px;
+    margin-right: 30px;
+    }
+    nav>a:hover{
+    text-decoration: underline;
+    }

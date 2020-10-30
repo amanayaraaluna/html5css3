@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    background-color: blueviolet;
+    font-family: cursive;
+}
+h1{
+    color: brown;
+    background-color: chocolate;
+}
+h2{
+    color: cornsilk;
+}
+p{
+   text-overflow: inherit;
+}
